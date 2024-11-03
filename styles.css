@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #13124F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1b1b6c;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #F61067;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.products, .mobile-computing, .seasonal-savings, .tv-audio, .home-appliances, .promo, .news {
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products h2 {
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #9090A5;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 0 200px; /* Allow the product cards to grow and shrink */
+    max-width: 220px; /* Optional max width for each card */
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card button {
+    background-color: #352BA5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-card button:hover {
+    background-color: #1b1b6c;
+}
+
+.mobile-computing, .seasonal-savings, .tv-audio, .home-appliances, .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-computing h2, .seasonal-savings h2, .tv-audio h2, .home-appliances h2, .promo h2 {
+    margin-bottom: 10px;
+}
+
+.news {
+    background-color: #e9ecef;
+}
+
+.news h2 {
+    text-align: center;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping of news items */
+}
+
+.news-item {
+    background-color: white;
+    border: 1px solid #9090A5;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1 0 30%; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px; /* Add margin for spacing */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #13124F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #2AD392;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
